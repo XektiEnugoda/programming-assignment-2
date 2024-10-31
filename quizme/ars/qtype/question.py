@@ -14,5 +14,5 @@ class Question(ABC):
         self._last_asked = datetime.now()
     
     @property
-    
-    def id()
+    def id(self):
+        return uuid.UUID4
